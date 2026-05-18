@@ -1,0 +1,36 @@
+# AI / LLM
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langsmith>=0.1.0
+llama-index>=0.10.0
+llama-index-vector-stores-qdrant>=0.2.0
+openai>=1.0.0
+anthropic>=0.25.0
+cohere>=5.0.0
+pydantic>=2.0.0
+
+# Retrieval
+qdrant-client>=1.9.0
+rank-bm25>=0.2.2
+
+# Evaluation
+deepeval>=0.21.0
+ragas>=0.1.0
+
+# Backend
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+redis>=5.0.0
+httpx>=0.27.0
+
+# Data pipeline
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+tiktoken>=0.7.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
